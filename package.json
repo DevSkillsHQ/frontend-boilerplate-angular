@@ -2,12 +2,8 @@
   "name": "fullstack-boilerplate",
   "version": "0.0.1",
   "scripts": {
-    "build:backend": "cd app-backend && npm install && npm run build",
-    "build:frontend": "cd app-frontend && npm install && npm run build",
-    "build": "npm run build:backend && npm run build:frontend",
-    "start:backend": "cd app-backend && npm run start",
-    "start:frontend": "cd app-frontend && npm run start",
-    "start": "npm run start:backend & npm run start:frontend",
+    "build": "cd app-frontend && npm install && npm run build",
+    "start": "cd app-frontend && npm run start",
     "test": "cypress run"
   },
   "devDependencies": {
