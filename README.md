@@ -16,8 +16,8 @@ A backbone for your coding challenge.
 
 ### Frontend
 
-- Angular 12.0.5
-- Typescript 4.2.3
+- Angular 15.0.4
+- Typescript 4.8.4
 
 #### Additional libs
 
