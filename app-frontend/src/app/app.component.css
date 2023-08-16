@@ -1,0 +1,38 @@
+/* Apply styles to the parent container */
+.container {
+  width: 300px; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/* Center the text within the form box */
+.container app-transaction-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add more styling as needed */
+.split-container {
+  display: flex;
+  height: 100vh; /* Use viewport height */
+}
+
+.form-container {
+  flex: 0 0 30%; /* 30% width */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  overflow: auto; /* Add scrollbar if content exceeds */
+}
+
+.list-container {
+  flex: 0 0 70%; /* 70% width */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  overflow: auto; /* Add scrollbar if content exceeds */
+}
