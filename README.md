@@ -11,8 +11,8 @@ A backbone for your coding challenge.
 
 ### Frontend
 
-- Angular 18
-- Typescript 5
+- Angular
+- Typescript
 
 #### Additional libs
 
